@@ -29,10 +29,10 @@ For now, I try to use GNOME and [Sway](https://swaywm.org/) Window Manager on Ar
 
 ## Keyboard shortcut
 
-| Action           | MacOS shortcut         | Gnome shortcut |
-|------------------|------------------------|----------------|
-| Open "Spotlight" | `<Option><Cmd><Space>` | `<Ctrl>`       |
-| Switch windows   | `<Cmd><Tab>`           | `<Cmd><Tab>`   |
+| Action                                                                                                                 | MacOS shortcut         | Gnome shortcut      |
+|------------------------------------------------------------------------------------------------------------------------|------------------------|---------------------|
+| [Open "Spotlight" / Show the activities Overview](https://github.com/stephane-klein/my-linux-desktop-journey/issues/3) | `<Cmd><Option><Space>` | `<Cmd><Alt><Space>` |
+| Switch windows                                                                                                         | `<Cmd><Tab>`           | `<Cmd><Tab>`        |
 
 ---
 

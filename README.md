@@ -29,6 +29,10 @@ For now, I try to use GNOME and [Sway](https://swaywm.org/) Window Manager on Ar
 
 ## Keyboard shortcut
 
+I try to keep MacOS and Gnome shortcut consistent because I works mainly on MacOS.
+
+This table is in work in progress:
+
 | Action                                                                                                                 | MacOS shortcut         | Gnome shortcut      |
 |------------------------------------------------------------------------------------------------------------------------|------------------------|---------------------|
 | [Open "Spotlight" / Show the activities Overview](https://github.com/stephane-klein/my-linux-desktop-journey/issues/3) | `<Cmd><Option><Space>` | `<Cmd><Alt><Space>` |

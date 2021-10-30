@@ -10,6 +10,19 @@ This repository is inspired by [`jokeyrhyme/my-linux-journey`](https://gitlab.co
 
 I use [these GitHub issues](https://github.com/stephane-klein/my-linux-desktop-journey/issues) to track my hurdles, my goals and [their solutions](https://github.com/stephane-klein/my-linux-desktop-journey/issues?q=is%3Aissue+is%3Aclosed).
 
+## Hardware
+
+For now, I'm running ArchLinux on this desktop:
+
+- CPU: [Intel Core I5 4570S 2.9Ghz](https://www.intel.com/content/www/us/en/products/sku/75044/intel-core-i54570s-processor-6m-cache-up-to-3-60-ghz/specifications.html) Socket 1150 6MO ([Wikipedia article](https://en.wikipedia.org/wiki/Intel_Core#4th_generation))
+  - GPU: [Intel® HD Graphics 4600](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Haswell)
+- Mother board: [Asus H81-Gamer](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/H81-GAMER/e9585_h81-gamer_manual_web_0720.pdf) - [Intel H81 Chipset](https://en.wikipedia.org/wiki/List_of_Intel_chipsets#LGA_1150) - S1150
+- Memory : 4x4Go PC3-12800 1600Mhz
+- SSD Samsung 512Go Sata-600
+- Monitor: [23.8" Dell P2421DC](https://www.displayspecifications.com/en/model/77151d40)
+- Keyboard: [Clavier Typematrix Bépo](http://typematrix.com/bepo/)
+- Mouse: [Logitech MX Master 3](https://www.logitech.fr/fr-fr/products/mice/mx-master-3.910-005694.html)
+
 ---
 
 My English is not very good, feel free to correct me.

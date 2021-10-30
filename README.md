@@ -23,6 +23,17 @@ For now, I'm running ArchLinux on this desktop:
 - Keyboard: [Clavier Typematrix Bépo](http://typematrix.com/bepo/)
 - Mouse: [Logitech MX Master 3](https://www.logitech.fr/fr-fr/products/mice/mx-master-3.910-005694.html)
 
+## Desktop environments
+
+For now, I try to use GNOME and [Sway](https://swaywm.org/) Window Manager on ArchLinux on [Wayland](https://arewewaylandyet.com/) display server.
+
+## Keyboard shortcut
+
+| Action           | MacOS shortcut         | Gnome shortcut |
+|------------------|------------------------|----------------|
+| Open "Spotlight" | `<Option><Cmd><Space>` | `<Ctrl>`       |
+| Switch windows   | `<Cmd><Tab>`           | `<Cmd><Tab>`   |
+
 ---
 
 My English is not very good, feel free to correct me.

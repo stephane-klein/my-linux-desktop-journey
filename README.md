@@ -22,6 +22,7 @@ For now, I'm running ArchLinux on this desktop:
 - Monitor: [23.8" Dell P2421DC](https://www.displayspecifications.com/en/model/77151d40)
 - Keyboard: [Clavier Typematrix Bépo](http://typematrix.com/bepo/)
 - Mouse: [Logitech MX Master 3](https://www.logitech.fr/fr-fr/products/mice/mx-master-3.910-005694.html)
+- Wifi+Bluetooth card: [Intel Dual Band Wireless-AC 7260](https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/dual-band-wireless-ac-7260-bluetooth-brief.pdf) ([Linux Kernel driver](https://wireless.wiki.kernel.org/en/users/Drivers/iwlwifi))
 
 ## Desktop environments
 

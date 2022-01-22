@@ -26,7 +26,31 @@ For now, I'm running ArchLinux on this desktop:
 
 ## Desktop environments
 
-For now, I try to use GNOME and [Sway](https://swaywm.org/) Window Manager on ArchLinux on [Wayland](https://arewewaylandyet.com/) display server.
+For now, I try to use GNOME Window Manager on Fedora 35 on xorg display server.
+
+```
+[stephane@MiWiFi-R4A-srv ~]$ neofetch
+             .',;::::;,'.                stephane@MiWiFi-R4A-srv
+         .';:cccccccccccc:;,.            -----------------------
+      .;cccccccccccccccccccccc;.         OS: Fedora Linux 35 (Workstation Edition) x86_64
+    .:cccccccccccccccccccccccccc:.       Kernel: 5.15.15-200.fc35.x86_64
+  .;ccccccccccccc;.:dddl:.;ccccccc;.     Uptime: 8 hours, 54 mins
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.    Packages: 1984 (rpm), 24 (flatpak)
+.:ccccccccccccc;KMMc;cc;xMMc:ccccccc:.   Shell: bash 5.1.8
+,cccccccccccccc;MMM.;cc;;WW::cccccccc,   Resolution: 2560x1440
+:cccccccccccccc;MMM.;cccccccccccccccc:   DE: GNOME 41.3
+:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:   WM: Mutter
+cccccc:0MMKxdd:;MMMkddc.;cccccccccccc;   WM Theme: Adwaita
+ccccc:XM0';cccc;MMM.;cccccccccccccccc'   Theme: Adwaita-dark [GTK2/3]
+ccccc;MMo;ccccc;MMW.;ccccccccccccccc;    Icons: Adwaita [GTK2/3]
+ccccc;0MNc.ccc.xMMd:ccccccccccccccc;     Terminal: tmux
+cccccc;dNMWXXXWM0::cccccccccccccc:,      CPU: Intel i5-4570S (4) @ 3.600GHz
+cccccccc;.:odl:.;cccccccccccccc:,.       GPU: Intel HD Graphics
+:cccccccccccccccccccccccccccc:'.         Memory: 7641MiB / 15866MiB
+.:cccccccccccccccccccccc:;,..
+  '::cccccccccccccc::;,.
+
+```
 
 ## Keyboard shortcut
 
@@ -34,10 +58,11 @@ I try to keep MacOS and Gnome shortcut consistent because I works mainly on Mac
 
 This table is in work in progress:
 
-| Action                                                                                                                 | MacOS shortcut         | Gnome shortcut      |
-|------------------------------------------------------------------------------------------------------------------------|------------------------|---------------------|
-| [Open "Spotlight" / Show the activities Overview](https://github.com/stephane-klein/my-linux-desktop-journey/issues/3) | `<Cmd><Option><Space>` | `<Cmd><Alt><Space>` |
-| Switch windows                                                                                                         | `<Cmd><Tab>`           | `<Cmd><Tab>`        |
+| Action                                                                                                                 | MacOS shortcut         | Gnome shortcut       |
+|------------------------------------------------------------------------------------------------------------------------|------------------------|----------------------|
+| [Open "Spotlight" / Show the activities Overview](https://github.com/stephane-klein/my-linux-desktop-journey/issues/3) | `<Cmd><Option><Space>` | `<Cmd><Alt><Space>`  |
+| Switch windows                                                                                                         | `<Cmd><Tab>`           | `<Cmd><Tab>`         |
+| Insert Emoji                                                                                                           | `<Ctrl><Cmd><Space>`   | `<Ctrl><Cmd><Space>` |
 
 ---
 

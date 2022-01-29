@@ -12,44 +12,41 @@ I use [these GitHub issues](https://github.com/stephane-klein/my-linux-desktop-j
 
 ## Hardware
 
-For now, I'm running ArchLinux on this desktop:
+New equipment since January 2022:
 
-- CPU: [Intel Core I5 4570S 2.9Ghz](https://www.intel.com/content/www/us/en/products/sku/75044/intel-core-i54570s-processor-6m-cache-up-to-3-60-ghz/specifications.html) Socket 1150 6MO ([Wikipedia article](https://en.wikipedia.org/wiki/Intel_Core#4th_generation))
-  - GPU: [Intel® HD Graphics 4600](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Haswell)
-- Mother board: [Asus H81-Gamer](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/H81-GAMER/e9585_h81-gamer_manual_web_0720.pdf) - [Intel H81 Chipset](https://en.wikipedia.org/wiki/List_of_Intel_chipsets#LGA_1150) - S1150
-- Memory : 4x4Go PC3-12800 1600Mhz
-- SSD Samsung 512Go Sata-600
-- Monitor: [23.8" Dell P2421DC](https://www.displayspecifications.com/en/model/77151d40)
-- Keyboard: [Clavier Typematrix Bépo](http://typematrix.com/bepo/)
-- Mouse: [Logitech MX Master 3](https://www.logitech.fr/fr-fr/products/mice/mx-master-3.910-005694.html)
-- Wifi+Bluetooth card: [Intel Dual Band Wireless-AC 7260](https://www.intel.com/content/dam/www/public/us/en/documents/product-briefs/dual-band-wireless-ac-7260-bluetooth-brief.pdf) ([Linux Kernel driver](https://wireless.wiki.kernel.org/en/users/Drivers/iwlwifi))
+- [Intel® NUC 11 Performance kit - NUC11PAHi7](https://www.intel.com/content/www/us/en/products/sku/205073/intel-nuc-11-performance-kit-nuc11pahi7/specifications.html)
+  - [Intel® Core™ i7-1165G7 Processor (12M Cache, up to 4.70 GHz)](https://www.intel.com/content/www/us/en/products/sku/208662/intel-core-i71165g7-processor-12m-cache-up-to-4-70-ghz/specifications.html)
+  - [Crucial 32GB Kit (2 x 16GB) DDR4-3200 SODIMM CT2K16G4SFRA32A](https://www.crucial.com/memory/ddr4/ct2k16g4sfra32a)
+  - [WD_BLACK™ SN850 NVMe™ SSD - 1To](https://www.westerndigital.com/fr-fr/products/internal-drives/wd-black-sn850-nvme-ssd#WDS100T1X0E)
+- Connected on this monitors:
+  - [23.8" Dell P2415Q](https://www.displayspecifications.com/en/model/be0153a)
+  - [23.8" Dell P2421DC](https://www.displayspecifications.com/en/model/77151d40)
 
 ## Desktop environments
 
 For now, I try to use GNOME Window Manager on Fedora 35 on xorg display server.
 
 ```
-[stephane@MiWiFi-R4A-srv ~]$ neofetch
-             .',;::::;,'.                stephane@MiWiFi-R4A-srv
-         .';:cccccccccccc:;,.            -----------------------
+[stephane@nuc-i7 ~]$ neofetch
+             .',;::::;,'.                stephane@nuc-i7
+         .';:cccccccccccc:;,.            ---------------
       .;cccccccccccccccccccccc;.         OS: Fedora Linux 35 (Workstation Edition) x86_64
-    .:cccccccccccccccccccccccccc:.       Kernel: 5.15.15-200.fc35.x86_64
-  .;ccccccccccccc;.:dddl:.;ccccccc;.     Uptime: 8 hours, 54 mins
- .:ccccccccccccc;OWMKOOXMWd;ccccccc:.    Packages: 1984 (rpm), 24 (flatpak)
-.:ccccccccccccc;KMMc;cc;xMMc:ccccccc:.   Shell: bash 5.1.8
-,cccccccccccccc;MMM.;cc;;WW::cccccccc,   Resolution: 2560x1440
-:cccccccccccccc;MMM.;cccccccccccccccc:   DE: GNOME 41.3
-:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:   WM: Mutter
-cccccc:0MMKxdd:;MMMkddc.;cccccccccccc;   WM Theme: Adwaita
-ccccc:XM0';cccc;MMM.;cccccccccccccccc'   Theme: Adwaita-dark [GTK2/3]
-ccccc;MMo;ccccc;MMW.;ccccccccccccccc;    Icons: Adwaita [GTK2/3]
-ccccc;0MNc.ccc.xMMd:ccccccccccccccc;     Terminal: tmux
-cccccc;dNMWXXXWM0::cccccccccccccc:,      CPU: Intel i5-4570S (4) @ 3.600GHz
-cccccccc;.:odl:.;cccccccccccccc:,.       GPU: Intel HD Graphics
-:cccccccccccccccccccccccccccc:'.         Memory: 7641MiB / 15866MiB
-.:cccccccccccccccccccccc:;,..
+    .:cccccccccccccccccccccccccc:.       Host: NUC11PAHi7 M15513-306
+  .;ccccccccccccc;.:dddl:.;ccccccc;.     Kernel: 5.15.16-200.fc35.x86_64
+ .:ccccccccccccc;OWMKOOXMWd;ccccccc:.    Uptime: 3 hours, 52 mins
+.:ccccccccccccc;KMMc;cc;xMMc:ccccccc:.   Packages: 1989 (rpm), 15 (flatpak)
+,cccccccccccccc;MMM.;cc;;WW::cccccccc,   Shell: zsh 5.8
+:cccccccccccccc;MMM.;cccccccccccccccc:   Resolution: 3840x2160, 2560x1440
+:ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:   DE: GNOME 41.3
+cccccc:0MMKxdd:;MMMkddc.;cccccccccccc;   WM: Mutter
+ccccc:XM0';cccc;MMM.;cccccccccccccccc'   WM Theme: Adwaita
+ccccc;MMo;ccccc;MMW.;ccccccccccccccc;    Theme: Adwaita-dark [GTK2/3]
+ccccc;0MNc.ccc.xMMd:ccccccccccccccc;     Icons: Adwaita [GTK2/3]
+cccccc;dNMWXXXWM0::cccccccccccccc:,      Terminal: tmux
+cccccccc;.:odl:.;cccccccccccccc:,.       CPU: 11th Gen Intel i7-1165G7 (8) @ 4.700GHz
+:cccccccccccccccccccccccccccc:'.         GPU: Intel TigerLake-LP GT2 [Iris Xe Graphics]
+.:cccccccccccccccccccccc:;,..            Memory: 5634MiB / 31719MiB
   '::cccccccccccccc::;,.
-
 ```
 
 ## Keyboard shortcut
